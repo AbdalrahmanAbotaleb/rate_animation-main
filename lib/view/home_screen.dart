@@ -13,7 +13,7 @@ class _HomescreenState extends State<Homescreen>
   double value = 1;
   static const double minValue = 1;
   static const double maxValue = 3;
-  Color endcolor = Color(0xffffdada);
+  Color endcolor = const Color(0xffffdada);
   Color startcolor = Color(0xffdaffdb);
   late AnimationController controller;
   late Animation<double> okanimation;
